@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Signup Form</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Nunito:400,300" rel="stylesheet" type="text/css">
+	
+</head>
+<body>
+	<form action ="" method="POST">
+		<h1>Sign Up</h1>
+	    <fieldset>
+		<legend><span class="section">1</span>Your Basic Info</legend>	
+	    
+	    <label class="" for="name">Name:</label><br/>
+	    <input type="name" name="name" value=""><br/>
+
+	    <label class="" for="email">Email:</label><br/>
+	    <input type="email" name="email" value=""></br/>
+
+	    <label class="" for="password">Password:</label><br/>
+	    <input type="password" name="password" value=""><br/>
+
+	    <label>Age:</label><br/>
+	    <input type="radio" name="age" value="under_18">
+	    <label class="light" for="under 18">Under 18:</label>
+        <br/>
+	    <input type="radio" name="age" value="over_18">
+	    <label class="light" for="over 19">Over 19:</label>
+	    </fieldset>
+
+	<fieldset>
+		<legend><span class="section">2</span>Your Profile</legend>
+	    <label class="" for ="bio">Bio:</label>
+	    <textarea name="Bio"></textarea><br/>
+
+		<label class="" for="job">Job Role:</label>
+		<select name="job">
+			<optgroup label="Web">
+				<option value="frontend_developer">Frontend Developer</option>
+			    <option value="php_developer">PHP Developer</option>
+			    <option value="data_scientist">Data Scientist</option>
+			    <option value="python_developer">Python Developer</option>
+			    <option value="web_developer">Web Developer</option>
+			</optgroup>
+			<optgroup label="Mobile">
+				<option value="android_developer">Android Developer</option>
+				<option value="ios_developer">IOS_Developer</option>
+				<option value="mobile_designer">Mobile Designer</option>
+			</optgroup>
+
+			<optgroup label="Business">
+				<option value="business_owner">Business Owner</option>
+				<option value="freelancer">Freelancer"</option>
+				<option value="youtube_creator">Youtube Creator</option>
+			</optgroup>
+         </select><br/>
+         <label>Interests:</label><br/>
+         <input type="checkbox" value="interest_development" name="user_interest">
+         <label class="ligt" for="development">Development</label><br/>
+
+         <input type="checkbox" value="interest_design" name="user_interest">
+         <label class="ligt" for="design">Design</label><br/>
+
+
+         <input type="checkbox" value="interest_business" name="user_interest">
+         <label class="ligt" for="business">Business</label><br/>
+       </fieldset>
+        <fieldset>
+        	<legend><span class="section" >3</span>Experience Level</legend>
+         <label class="dark" for="experience">Experience Level:</label>
+         <select name="experience">
+         	<optgroup label="Years of Experience">
+         	<option value="one">One</option>
+         	<option value="two">Two</option>
+         	<option value="three">Three</option>
+         	<option value="four">Four</option>
+         </optgroup>
+         </select><br/>
+         <label class="" for="experience">Summary</label>
+         <textarea type="text"></textarea>
+    </fieldset>
+    	<button type="submit">Sign Up</button>
+    <div>
+    	<div>
+    		<nav>
+    			<img src="image/VB.JPEG">
+    		</nav>
+    	</div>
+    </div>
+</form>
+</body>
+</html>
